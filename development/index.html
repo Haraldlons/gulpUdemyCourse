@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+  <link rel="stylesheet" href="./styles_dependencies.css" />
+  <!-- <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css"> -->
+  <link rel="stylesheet" href="/styles.css" />
+
+</head>	
+
+<body ng-app="mainApp" style="flex" >
+ 	<h1 style="margin-top: 1800px"> <b>Social Eating registration</b></h1>
+	<img src="https://www.forksoverknives.com/wp-content/uploads/longevity-diet2.jpg"/ width="400px" >
+
+	<h2>Register now and make your eating social!</h2>
+
+	<form>
+	  <div class="container" style="align-content: center">
+	  	<div>
+		    <label><b><h1>Log-in information</h1></b></label>
+		    <label><b>Email</b></label>
+		    <input type="text" placeholder="Enter Email" name="email" required>
+
+		    <label><b>Password</b></label>
+		    <input type="password" placeholder="Enter Password" name="psw" required>
+
+		    <label><b>Repeat Password</b></label>
+		    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+	  	</div>
+	    
+	    
+
+	    <div style="padding-top: 30px">
+		    <label><b><h1>Eating buddies</h1></b></label>
+		    <input type="password" placeholder="Enter the name of your eating buddy" name="psw" required>
+		    <input type="password" placeholder="Enter the name of another eating buddy" name="psw" required><input type="checkbox" checked="checked"> I want to eat with all available buddies	    	
+	    </div>
+	    <div style="padding-top: 30px">
+	    	<label><b><h1>Preferences</h1></b></label>
+	    	<h4>Enter the starting time of each meal</h4>
+		    <input type="password" placeholder="Enter the prefered breakfast starting time" name="psw" required>
+		    <input type="password" placeholder="Enter the prefered lunch starting time" name="psw" required>
+		    <input type="password" placeholder="Enter the prefered dinner starting time" name="psw" required>
+		    <input type="password" placeholder="Enter the prefered 'kveldsmat' starting time" name="psw" required>
+
+	    </div>
+	    <div style="padding-top: 30px">
+	    	<label><b><h1>Eating monitoring</h1></b></label>
+	    	<h4>Weight today</h4>
+		    <input type="password" placeholder="Enter the weight of the elder today" name="psw" required>
+	    	<h4>Weight notification</h4>
+
+	    	<input type="password" placeholder="Enter the weight which will trigger a notification" name="psw" required>
+	    	<h4>Vitamins</h4>
+
+	    	<input type="password" placeholder="Enter the wanted amount of daily Vitamins" name="psw" required>
+
+	    </div>
+
+	    <div style="padding-top: 30px">
+	    	<label><b><h1>Eating preferences</h1></b></label>
+	    	<h4>Wanted amount of consumed food each day</h4>
+		    <input type="password" placeholder="Enter the prefered amount of food consumed each day" name="psw" required>
+	    	<h4>Enter the amount of food which will trigger a notification</h4>
+
+	    	<input type="password" placeholder="Enter the prefered amount of food which will trigger a notification" name="psw" required>
+
+	    </div>
+	    <div style="padding-top: 30px">
+	    	<label><b><h1>Drinking preferences</h1></b></label>
+	    	<h4>Wanted amount of consumed drink each day</h4>
+		    <input type="password" placeholder="Enter the prefered amount of drink consumed each day" name="psw" required>
+	    	<h4>Enter the amount of food which will trigger a notification</h4>
+
+	    	<input type="password" placeholder="Enter the prefered amount of drink which will trigger a notification" name="psw" required>
+	    	
+	    </div>
+	    <div style="padding-top: 30px">
+	    	<label><b><h1>Medication</h1></b></label>
+	    	<h4>Wanted amount of consumed medication each day</h4>
+		    <input type="password" placeholder="Enter the prefered amount of medication consumed each day" name="psw" required>
+	    	<h4>Enter the amount of consumed medication which will trigger a notification</h4>
+
+	    	<input type="password" placeholder="Enter the prefered amount of medication which will trigger a notification" name="psw" required>
+	    </div>
+	    <div>
+	    	<label><b><h1>Looking for a new 'special one'?</h1></b></label><input type="checkbox" checked="checked"> I want to find someone I can share my life with
+	    </div>
+
+	    <div class="clearfix">
+	      <button type="button"  class="cancelbtn">Cancel</button>
+	      <button type="submit" class="signupbtn">Sign Up</button>
+	    </div>
+	  </div>
+	</form>
+
+
+    	
+
+
+
+
+	
+	<!-- <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+      <md-button>{{title1}}</md-button>
+      <md-button md-no-ink class="md-primary">Primary (md-noink)</md-button>
+      <md-button ng-disabled="true" class="md-primary">Disabled</md-button>
+      <md-button class="md-warn">{{title4}}</md-button>
+      <div class="label">Flat</div>
+    </section> -->
+
+    <!-- <h1>Now ui-view is coming below</h1> -->
+	<ui-view></ui-view>
+
+
+
+
+	<!-- Angular UI-route -->
+
+	 <!-- Angular JS -->
+  <!-- <script src="../node_modules/angular/angular.js"></script> -->
+  <!-- <script src="node_modules/angular-animate/angular-animate.js"></script> -->
+  <!-- <script src="node_modules/angular-aria/angular-aria.js"></script> -->
+  <!-- <script src="node_modules/angular-material/angular-material.js"></script> -->
+  <!-- <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script> -->
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.js"></script> -->
+		<!-- Important to include Angular.js before app.js -->
+<!-- ======================================================== -->
+<!-- 					EXTERNAL DEPENDENCIES 				  -->
+<!-- ======================================================== -->
+
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.js"></script> -->
+	<script src="http://localhost:35729/livereload.js"></script>
+
+						<!-- Angular stuff -->
+
+	<script src="/scripts_dependencies.js"></script>
+	<!-- <script src="./node_modules/angular/angular.js"></script>
+	<script src="./node_modules/angular-route/angular-route.js"></script>
+	<script src="./node_modules/angular-animate	/angular-animate.min.js"></script>
+	<script src="./node_modules/angular-aria/angular-aria.min.js"></script>
+	<script src="./node_modules/angular-material/angular-material.min.js"></script> -->
+	<script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+<!-- ======================================================== -->
+<!-- 				END EXTERNAL DEPENDENCIES 				  -->
+<!-- ======================================================== -->
+
+	<script src="/templates.js"></script>
+	<script src="/scripts.js"></script>
+
+</body>
+</html>
